@@ -9,7 +9,7 @@ from ../deepspt_src import *
 
 # controls
 plot = False
-save = False
+save = True
 
 # variables
 n_per_clean_diff = 10 # 1000 per n_classes
@@ -20,7 +20,7 @@ print(n_per_clean_diff, n_changing_traces, n_per_clean_diff*n_classes+n_changing
 
 # %%
 random_D = True
-multiple_dt = False
+multiple_dt = False # not implemented but as D is multiplied with dt for varying D is the same
 
 Nrange = [5,600]
 Brange = [0.05,1] 
